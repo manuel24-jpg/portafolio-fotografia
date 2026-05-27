@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Caribe Colombiano</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      margin:0;
+      background:#f4f4f4;
+      text-align:center;
+    }
+
+    h1{
+      margin-top:40px;
+    }
+
+    .galeria{
+      display:grid;
+      grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+      gap:20px;
+      padding:40px;
+    }
+
+    img{
+      width:100%;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    p{
+      padding:10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Caribe Colombiano</h1>
+
+  <p>
+    Proyecto fotográfico sobre un recorrido por la Costa Caribe colombiana.
+  </p>
+
+  <div class="galeria">
+
+    <div>
+      <img src="images/cartagena.jpg">
+      <p>Cartagena</p>
+    </div>
+
+    <div>
+      <img src="images/tayrona.jpg">
+      <p>El Tayrona</p>
+    </div>
+
+    <div>
+      <img src="images/manaure.jpg">
+      <p>Manaure</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
